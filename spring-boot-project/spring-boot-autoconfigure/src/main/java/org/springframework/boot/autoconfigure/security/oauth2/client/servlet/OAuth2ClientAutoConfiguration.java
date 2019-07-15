@@ -39,5 +39,5 @@ import org.springframework.security.oauth2.client.registration.ClientRegistratio
 @ConditionalOnWebApplication(type = ConditionalOnWebApplication.Type.SERVLET)
 @Import({ OAuth2ClientRegistrationRepositoryConfiguration.class, OAuth2WebSecurityConfiguration.class })
 public class OAuth2ClientAutoConfiguration {
-
+    //用于将多个配置整合在一起，所以这里没有方法的实现
 }

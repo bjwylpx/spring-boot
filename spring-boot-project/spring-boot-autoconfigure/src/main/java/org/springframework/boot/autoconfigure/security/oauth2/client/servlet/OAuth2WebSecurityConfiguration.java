@@ -29,6 +29,7 @@ import org.springframework.security.oauth2.client.web.AuthenticatedPrincipalOAut
 import org.springframework.security.oauth2.client.web.OAuth2AuthorizedClientRepository;
 
 /**
+ *
  * {@link WebSecurityConfigurerAdapter} to add OAuth client support.
  *
  * @author Madhura Bhave
